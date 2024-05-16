@@ -1,16 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .App-header {
@@ -24,15 +18,51 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.table {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  width: 23%;
+  height: 200px;
+  background-color: black;
+}
+
+.electric {
+  background-color: #f7d02c; /* Electric yellow */
+}
+
+.water {
+  background-color: #00aeff; /* Water blue */
+}
+
+.fire {
+  background-color: #ee8130; /* Fire orange */
+}
+
+.psychic {
+  background-color: #f95587; /* Psychic pink */
+}
+
+.normal {
+  background-color: #edede3; /* Normal grey */
+}
+
+.ghost {
+  background-color: #170b2a; /* Ghost purple */
+  color: white;
+}
+
+.dragon {
+  background-color: #3702b2; /* Dragon purple-blue */
+  color: white;
 }
